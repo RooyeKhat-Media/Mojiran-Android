@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical|center_horizontal"
+    android:paddingLeft="40dp"
+    android:paddingRight="40dp"
+    android:paddingTop="20dp"
+    android:paddingBottom="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/txttozihat"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="14dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="بروزرسانی از بازار"
+        android:id="@+id/btn_bazar"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/rounded"
+        android:paddingRight="30dp"
+        android:paddingLeft="30dp" />
+
+    <Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="بروزرسانی مستقیم"
+    android:id="@+id/btn_update"
+    android:layout_gravity="center_horizontal"
+    android:background="@drawable/rounded"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="خروج"
+        android:id="@+id/btn_exitt"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/rounded"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:layout_marginTop="15dp" />
+</LinearLayout>

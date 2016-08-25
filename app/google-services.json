@@ -1,0 +1,38 @@
+{
+  "project_info": {
+    "project_number": "188773585705",
+    "project_id": "firebase-mojiran"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:188773585705:android:69d1ef6366a68ca5",
+        "android_client_info": {
+          "package_name": "com.Mojiran"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWEQyq7MRULtBf2THKXsSACyLxw0n7b_k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 2,
+          "analytics_property": {
+            "tracking_id": "UA-82661269-1"
+          }
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/img_notifi_logo"
+        android:layout_width="@dimen/_40sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_gravity="left|center"
+        android:layout_marginLeft="@dimen/_8sdp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/logo" />
+
+
+    <!--<TextView-->
+        <!--android:id="@+id/txt_notifi_title"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:gravity="right|center"-->
+        <!--android:textColor="@android:color/black"-->
+        <!--tools:text=""/>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_48sdp"
+        android:layout_gravity="right|center"
+        android:gravity="right|center"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+
+
+
+        <TextView
+            android:id="@+id/txt_notifi_current"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="..."
+            android:textColor="@android:color/darker_gray"
+            android:textSize="11sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="اکنون : "
+            android:visibility="gone"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="11sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_48sdp"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/_6sdp"
+        android:paddingBottom="@dimen/_6sdp"
+        android:paddingLeft="@dimen/_6sdp"
+        android:visibility="gone"
+
+        android:layout_gravity="left|center"
+
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="سپس:"
+            android:layout_marginTop="@dimen/_9sdp"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="11sp"/>
+
+        <TextView
+            android:id="@+id/txt_notifi_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="سپس"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="11sp" />
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/img_notifi_play_pause"
+        android:layout_width="36dp"
+        android:layout_height="43dp"
+
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/_5sdp"
+        android:adjustViewBounds="true"
+        android:background="@null"
+        android:scaleType="fitXY"/>
+
+    <ImageButton
+        android:id="@+id/img_notifi_mute"
+        android:layout_width="43dp"
+        android:layout_height="43dp"
+        android:background="@null"
+        android:layout_gravity="center"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="@dimen/_8sdp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"/>
+
+
+
+
+</LinearLayout>

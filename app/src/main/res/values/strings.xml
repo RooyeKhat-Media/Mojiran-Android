@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Mojiran</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_splash">Mojiran</string>
+    <string name="about">موج ایران یک رادیوی مستقل بر بستر اینترنت بصورت 24 ساعته است .
+        \n
+برنامه سازی در موج ایران در حوزه های علمی، فرهنگی، هنری و اجتماعی توسط جوانان مستعد بر اساس مدل های برنامه سازی نوین در جهانی صورت میگیرد . </string>
+</resources>
