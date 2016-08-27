@@ -10,7 +10,6 @@ buildscript {
     }
 }
 apply plugin: 'com.android.application'
-apply plugin: 'com.google.gms.google-services'
 apply plugin: 'io.fabric'
 
 repositories {
@@ -29,8 +28,8 @@ android {
         //mojvisualizer.com.Mojiran.com.com.Mojiran
         minSdkVersion 15
         targetSdkVersion 24
-        versionCode 6
-        versionName "1.0.5"
+        versionCode 7
+        versionName "1.0.6"
 
     }
     buildTypes {
@@ -55,7 +54,7 @@ dependencies {
         transitive = true;
     }
 
-    compile 'com.google.android.gms:play-services:8.3.0'
+    compile 'com.google.android.gms:play-services-analytics:9.2.0'
     compile 'com.google.android.exoplayer:exoplayer:r1.5.3'
 
 }
