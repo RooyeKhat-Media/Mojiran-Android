@@ -358,6 +358,7 @@ public class Splash extends Activity {
             finish();
             overridePendingTransition(R.anim.abc_fade_in, R.anim.abc_fade_out);
             Intent intent = new Intent(Splash.this, MainActivity.class);
+            intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
             intent.putExtra("Date", Date);
             intent.putExtra("Facebook", Facebook);
             intent.putExtra("Twitter", Twitter);
